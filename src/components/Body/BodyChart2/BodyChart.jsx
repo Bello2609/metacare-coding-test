@@ -31,7 +31,7 @@ const graphData = {
     labels,
     datasets: [
         {
-            label: 'Average response Time',
+            label: 'Replies per resolution',
             data:[
                 0,
                 12,
@@ -70,7 +70,7 @@ const BodyChart2 = ()=>{
                 <div className={classes.Chart}>
                     <div className={classes.Chart_header}>
                         <div className={classes.chart_title}>
-                            <h4>Replies per resolution </h4>
+                            <h4>Replies per resolution</h4>
                             <p>+4.14% </p>
                         </div>
                         <div className={classes.chart_stat}>

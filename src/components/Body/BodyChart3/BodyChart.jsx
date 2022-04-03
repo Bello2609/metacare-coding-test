@@ -31,7 +31,7 @@ const graphData = {
     labels,
     datasets: [
         {
-            label: 'Average response Time',
+            label: 'First contact resolution rate',
             data:[
                 0,
                 12,
