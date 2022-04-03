@@ -1,20 +1,28 @@
 .Nav{
     width: 100%;
-    height: 42px;
     margin-top: 10px;
 } 
 nav{
     display: flex;
     border-bottom: 1px solid #ECEBF5;
+    height: 50.5px;
 }
 nav ul{
     display: flex;
     width: 100%;
 }
 nav ul li{
+    line-height: 30px;
     list-style: none;
     margin-right: 20px;
     font-size: 16px;
     color: #696D8C;
     font-weight: 400;
+    cursor: pointer;
+    padding-bottom: 17px;
+    height: 100%;
+    
+}
+nav ul li:nth-child(1){
+    border-bottom: 2px solid #6837EF;
 }
