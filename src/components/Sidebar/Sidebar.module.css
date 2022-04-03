@@ -1,0 +1,96 @@
+.Sidebar{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: auto;
+    padding: 15px;   
+    border-right: 1px solid #ECEBF5;
+}
+.Sidebar_header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ECEBF5;
+    border-radius: 10px;
+    height: 68px;
+}
+.Sidebar_header p:nth-child(1){
+    color: #060213;
+    font-family: Gelion;
+    font-size: 14px;
+    font-weight: 400;
+} 
+.Sidebar_header p:nth-child(2){
+    color: #696D8C;
+    font-family: Gelion;
+    font-size: 12px;
+    font-weight: 400;
+}
+.Sidebar_content{
+    display: flex;
+    flex-direction: column;
+}
+.Sidebar_content_list{
+    display: flex;
+    align-items: center;
+}
+.Sidebar_content_list p{
+    color: #696D8C;
+    font-size: 20px;
+}
+.Sidebar_content_list b{
+    color: #6837EF;
+    font-size: 25px;
+}
+.Sidebar_content_list_element{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    width: 100%;
+}
+.Sidebar_content_list_elementlast{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    position: relative;
+    padding-left: 20px;
+    width: 100%;
+}
+.Sidebar_content_list_element_sublist{
+    position: absolute;
+    top: 40px;
+    transition: all 0.5s ease-in-out;
+}
+.Sidebar_content_list_element_sublist h6{
+    color: #696D8C;
+    font-size: 16px;
+    font-style: normal;
+    font-family: Gelion;
+}
+.Sidebar_content_list_element_sublist h6:nth-child(1){
+    color: #000;
+    font-size: 16px;
+}
+.Sidebar_content_list_elementlast h5{
+    color: #696D8C;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Gelion;
+}
+.last{
+    color: #E5E4EF;
+    cursor: pointer; 
+}
+.Sidebar_content_list_element h5{
+    color: #696D8C;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Gelion;
+}
+.Sidebar_content_list_element p{
+    color: #E5E4EF;
+    cursor: pointer; 
+}
